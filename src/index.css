@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+ul li {
+  margin: 15px 0;
+  padding: 35px 25px;
+  font-size: 20px;
+  width: 100%;
+  background-color: #fff;
+  list-style-type: none;
+  position: relative;
+}
+
+.btn-remove {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-image: url('close.png');
+  background-color: #fff;
+  background-size: cover;
+  border: 0 solid;
+  cursor: pointer;
+}
+
+.items {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  bottom: 15px;
+  right: 25px;
+}
+
+.user {
+  margin-right: 25px;
+}
+
+.date {
+  margin-right: 25px;
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+textarea {
+  padding: 10px;
+  resize: none;
+  width: 300px;
+  height: 100px;
+}
+
+input {
+  padding-left: 10px;
+  margin-left: 30px;
+  width: 200px;
+  height: 30px;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-add {
+  margin: 30px 0;
+  padding: 10px 8px;
+  background-color:green;
+  color: #fff;
+  border: 0 solid;
+  cursor: pointer;
+}
